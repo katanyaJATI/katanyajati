@@ -12,3 +12,13 @@
 */
 
 Route::get('/', 'ProjectsController@index');
+
+Route::prefix('mylabs')->group(function () {
+  Route::get('/', function () {
+      return view('admin.index');
+  });
+
+  Route::get('/users', 'UsersController@index');
+  
+  Route::get('/projects', 'ProjectsController@index');
+});

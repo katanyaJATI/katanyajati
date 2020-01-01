@@ -18,8 +18,8 @@ class CreateProjectsTable extends Migration
             $table->string('title');
             $table->text('description');
             $table->string('project_url');
-            $table->dateTime('start_date');
-            $table->dateTime('end_date');
+            $table->date('start_date');
+            $table->date('end_date');
             $table->timestamps();
         });
     }
