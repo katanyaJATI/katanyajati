@@ -21,14 +21,6 @@
           </li>
           <li class="m-nav__item">
             <span class="m-nav__link-text">
-              Master
-            </span>
-          </li>
-          <li class="m-nav__separator">
-            -
-          </li>
-          <li class="m-nav__item">
-            <span class="m-nav__link-text">
               Users
             </span>
           </li>

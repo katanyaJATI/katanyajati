@@ -20,16 +20,18 @@
             -
           </li>
           <li class="m-nav__item">
-            <span class="m-nav__link-text">
-              Master
-            </span>
+            <a href="/mylabs/users" class="m-nav__link">
+              <span class="m-nav__link-text">
+                Users
+              </span>
+            </a>
           </li>
           <li class="m-nav__separator">
             -
           </li>
           <li class="m-nav__item">
             <span class="m-nav__link-text">
-              Users
+              Create
             </span>
           </li>
         </ul>
@@ -104,7 +106,7 @@
         $("#role").append("<option value=''>Select Role</option>")
         $.each(response, function(index, value) {
           console.log({value})
-          $("#role").append("<option value=''"+value.id+"''>"+value.title+"</option>");
+          $("#role").append("<option value='"+value.id+"'>"+value.title+"</option>");
         });
       }
     });
@@ -131,11 +133,11 @@
     });
 
     function saveData() {
-      let username = $("#username").val()
-      let name = $("#name").val()
-      let email = $("#email").val()
-      let password = $("#password").val()
-      let role = $("#role").val()
+      let username = $('#username').val()
+      let name = $('#name').val()
+      let email = $('#email').val()
+      let password = $('#password').val()
+      let role = $('select[name=role]').val()
       let data = {
         username,
         name,
@@ -155,7 +157,7 @@
             delay: 2000,
             allow_dismiss: true,
           })
-          $('#form').reset()
+          $('#form').trigger('reset')
         },
         error: function(jqXHR, exception) {
           var message = jqXHR.responseJSON.message;
