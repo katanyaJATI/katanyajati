@@ -28,10 +28,6 @@
     <!--begin::Page Snippets -->
 		<script src={{asset("admin/app/js/dashboard.js")}} type="text/javascript"></script>
     <!--end::Page Snippets -->
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
 
     
         <!--begin::Base Styles -->  
@@ -42,6 +38,13 @@
 		<link href={{asset("admin/demo/default/base/style.bundle.css")}} rel="stylesheet" type="text/css" />
 		<!--end::Base Styles -->
 		<link rel="shortcut icon" href={{asset("admin/demo/default/media/img/logo/favicon.ico")}} />
+		
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js" type="text/javascript"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" type="text/css" />
 	</head>
 	<!-- end::Head -->
     <!-- end::Body -->

@@ -10,7 +10,7 @@ class ProjectsController extends Controller
   public function index(Project $project)
   {
     $projects = $project->get()->all();
-    dd($projects);
-    return view('admin.projects');
+    // dd($projects);
+    return view('index');
   }
 }

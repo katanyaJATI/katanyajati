@@ -64,13 +64,37 @@
     	<!--begin::Base Scripts -->
 		<script src={{asset("admin/vendors/base/vendors.bundle.js")}} type="text/javascript"></script>
 		<script src={{asset("admin/demo/default/base/scripts.bundle.js")}} type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js" type="text/javascript"></script>
+    
+    <script>
+      $.validator.setDefaults({
+        highlight: function(element) {
+          $(element).closest('.form-group').addClass('has-danger');
+        },
+        unhighlight: function(element) {
+          $(element).closest('.form-group').removeClass('has-danger');
+        },
+        errorElement: 'div',
+        errorClass: 'form-control-feedback',
+        errorPlacement: function(error, element) {
+          console.log(element.parent('.form-control'))
+          if(element.parent('.form-control').length) {
+            error.insertAfter(element.parent());
+          } else {
+            error.insertAfter(element);
+          }
+        }
+      })
+    </script>
 		<!--end::Base Scripts -->   
         <!--begin::Page Vendors -->
-		<script src={{asset("admin/vendors/custom/fullcalendar/fullcalendar.bundle.js")}} type="text/javascript"></script>
+		{{-- <script src={{asset("admin/vendors/custom/fullcalendar/fullcalendar.bundle.js")}} type="text/javascript"></script> --}}
 		<!--end::Page Vendors -->  
         <!--begin::Page Snippets -->
-		<script src={{asset("admin/app/js/dashboard.js")}} type="text/javascript"></script>
+		{{-- <script src={{asset("admin/app/js/dashboard.js")}} type="text/javascript"></script> --}}
     <!--end::Page Snippets -->
+
+    {{-- <script src={{asset("admin/demo/default/custom/components/forms/widgets/select2.js")}} type="text/javascript"></script> --}}
     {{-- <script src={{asset("admin/demo/default/custom/components/datatables/base/data-local.js")}} type="text/javascript"></script> --}}
 	</body>
 	<!-- end::Body -->
