@@ -5,7 +5,7 @@
 ---
 
 ### 🚀 About Me
-I'm a passionate Senior Mobile Engineer with over 7 years of experience specializing in React Native. My journey in mobile development has taken me through diverse fields such as education, insurance, healthcare, logistics, and e-commerce. I thrive on creating responsive, high-performance user interfaces and delivering top-notch mobile applications for both Android and iOS platforms. In addition to mobile development, I also have strong skills in web development using React.js and Next.js.
+I'm a passionate Senior Mobile Engineer with over 8 years of experience specializing in React Native. My journey in mobile development has taken me through diverse fields such as education, insurance, healthcare, logistics, and e-commerce. I thrive on creating responsive, high-performance user interfaces and delivering top-notch mobile applications for both Android and iOS platforms. In addition to mobile development, I also have strong skills in web development using React.js and Next.js.
 
 ### 💼 Professional Experience
 I have been involved in various challenging and innovative projects, contributing to a diverse range of mobile applications (React Native). This experience has enabled me to further hone my skills and take on significant responsibilities, including:
