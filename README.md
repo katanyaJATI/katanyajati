@@ -39,11 +39,12 @@ The [Avoskin app](https://www.avoskinbeauty.com/), an e-commerce application for
 
 ### 🌐 Connect with Me
 I'm always open to discussing exciting projects and opportunities. Whether you have a question, a proposal, or just want to connect, feel free to reach out to me:
-
-- **Email:** janakajati21@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/katanyajati
-- **Fiverr:** https://www.fiverr.com/katanyajati
-- **Upwork:** https://www.upwork.com/freelancers/janakajatilasmana
+| Contact                                                                                                      | URL                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />       | janakajati21@gmail.com                               |
+| <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> | https://www.linkedin.com/in/katanyajati              |
+| <img src="https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" />     | https://www.fiverr.com/katanyajati                   |
+| <img src="https://img.shields.io/badge/UpWork-6FDA44?style=for-the-badge&logo=Upwork&logoColor=white" />     | https://www.upwork.com/freelancers/janakajatilasmana |
 
 If you have any interesting projects, feel free to contact me. I will bring my skills to the table and help you achieve your goals! 😉
 
